@@ -19,3 +19,34 @@ aside {
     background-color: #0288D1;
     width: 33%;
 }
+
+header {
+    margin-left: 54px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1.2em;
+}
+
+h1 + p {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.75;
+    margin: 0;
+}
+
+.prenom {
+    color: #0288D1;
+}
+
+hr {
+    width: 58px;
+    height: 1px;
+    background-color: #0288D1;
+    margin: 0;
+    border: none;
+}
