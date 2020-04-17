@@ -1,0 +1,21 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1190px;
+    margin: auto;
+    display: flex;
+}
+
+main {
+    order: 2;
+    width: 67%;
+}
+
+aside {
+    order: 1;
+    background-color: #0288D1;
+    width: 33%;
+}
