@@ -6,24 +6,39 @@
 body {
     max-width: 1190px;
     margin: auto;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     display: flex;
 }
 
 main {
     order: 2;
     width: 67%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+header {
+    margin-left: 54px;
+}
+
+header hr {
+    width: 58px;
+    height: 1px;
+    background-color: #0288D1;
+    margin: 0;
+    border: none;
 }
 
 aside {
     order: 1;
     background-color: #0288D1;
     width: 33%;
+    border-left: 1px solid black;
 }
 
-header {
-    margin-left: 54px;
+aside h2 {
+    text-align: center;
+    background-color: #FFF;
+    color: #0288D1;
 }
 
 h1 {
@@ -41,14 +56,15 @@ h1 + p {
     margin: 0;
 }
 
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
 .prenom {
     color: #0288D1;
 }
 
-header hr {
-    width: 58px;
-    height: 1px;
-    background-color: #0288D1;
-    margin: 0;
-    border: none;
+.photo {
+    text-align: center;
 }
