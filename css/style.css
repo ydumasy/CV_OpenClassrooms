@@ -94,15 +94,36 @@ header p {
 .formation ul, .experience ul {
     flex: 1;
     padding-left: 10px;
+    list-style: none;
+}
+
+.premier::before {
+    content: "ʘ";
+    color: #0288D1;
+    margin-right: 5px;
+}
+
+li:not(.premier)::before {
+    content: "•";
+    color: #0288D1;
+    margin-right: 9px; 
+}
+
+li p {
+    margin-top: 0;
+    margin-left: 13px;
 }
 
 .formation1 div, .formation2 div, .formation3 div, .experience1 div, .experience2 div {
     flex: 3;
 }
 
-
 .formation1, .formation2, .formation3, .experience1, .experience2, .recommandation1, .recommandation2 {
     opacity: 0.75;
+}
+
+.recommandation1 {
+    width: 50%;
 }
 
 /* Éléments de la partie aside */
