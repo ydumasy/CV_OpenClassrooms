@@ -36,6 +36,10 @@ h4 {
     font-weight: 400;
 }
 
+a {
+    color: #000;
+}
+
 hr {
     height: 1px;
     background-color: #0288D1;
@@ -73,12 +77,13 @@ header {
 header hr {
     width: 58px;
     margin: 0;
+    text-align: left;
 }
 
 header p {
     font-size: 20px;
     font-weight: 500;
-    opacity: 0.75;
+    color: #444444;
     margin: 0;
 }
 
@@ -91,7 +96,7 @@ header p {
     display: flex;
 }
 
-.formation ul, .experience ul {
+.formation .premier, .formation .suivant, .experience .premier, .experience .suivant {
     flex: 1;
     padding-left: 10px;
     list-style: none;
@@ -103,23 +108,23 @@ header p {
     margin-right: 5px;
 }
 
-li:not(.premier)::before {
+.suivant::before {
     content: "•";
     color: #0288D1;
     margin-right: 9px; 
 }
 
-li p {
+.formation span, .experience span {
     margin-top: 0;
     margin-left: 13px;
 }
 
-.formation1 div, .formation2 div, .formation3 div, .experience1 div, .experience2 div {
+.formation1 section, .formation2 section, .formation3 section, .experience1 section, .experience2 section {
     flex: 3;
 }
 
 .formation1, .formation2, .formation3, .experience1, .experience2, .recommandation1, .recommandation2 {
-    opacity: 0.75;
+    color: #444444;
 }
 
 .recommandation1 {
@@ -148,29 +153,31 @@ aside h2 {
     text-align: center;
 }
 
-.bloc {
-    opacity: 0.75;
+ul {
+    color: #212121;
+    list-style: none;
+    padding: 0;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.bloc p {
+ul p {
     margin-bottom: 0;
 }
 
-.bloc a, .pseudo-skype {
+ul a, .pseudo-skype {
     margin-top: 0;
 }
 
 .a-propos p {
-    opacity: 0.75;
+    color: #212121;
     margin: 20px;
 }
 
 .icones {
     width: 80%;
     margin: auto;
-    opacity: 0.75;
+    color: #212121;
     display: flex;
     justify-content: space-around;
 }
