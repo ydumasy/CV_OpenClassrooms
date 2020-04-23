@@ -15,9 +15,16 @@ nav {
 }
 
 nav ul {
+    margin: 0;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav1, .nav2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -47,4 +54,28 @@ aside {
 
 .loisirs {
     margin-bottom: 15px;
+}
+
+/* Résolution pour smartphone */
+@media screen and (max-width: 767px) 
+{
+nav ul {
+    flex-direction: column;
+}
+
+.nav1, .nav2 {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    background-position: bottom 20px left 50%;
+    padding-top: 0;
+    padding-bottom: 200px;
+    margin-left: 0;
+}
+
+header hr {
+    display: none;
+}
 }
