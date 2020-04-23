@@ -9,6 +9,23 @@ main {
     border: none;
 }
 
+nav {
+    background-color: #0288D1;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 14px;
+    color: #fff;
+}
+
 header {
     margin-bottom: 0;
     padding-top: 75px;
