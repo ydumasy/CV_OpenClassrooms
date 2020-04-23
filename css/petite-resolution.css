@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    order: 1;
+    border: none;
+}
+
+header {
+    margin-bottom: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url("../selfie_rond.png");
+    background-repeat: no-repeat;
+    background-position: top 63% right 20%;
+}
+
+aside {
+    width: 100%;
+    order: 2;
+    border: none;
+}
+
+.photo {
+    display: none;
+}
+
+.loisirs {
+    margin-bottom: 15px;
+}
