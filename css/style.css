@@ -168,6 +168,10 @@ aside h2 {
     color: #0288D1;
 }
 
+aside li, aside p {
+    text-shadow: 0 0 70px white;
+}
+
 .prenom {
     color: #0288D1;
 }
