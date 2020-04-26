@@ -68,6 +68,7 @@ aside {
 
 .loisirs {
     margin-bottom: 15px;
+    margin-top: 0;
 }
 
 /* Résolution pour smartphone */
@@ -78,6 +79,7 @@ nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    overflow: hidden;
 }
 
 .nav1, .nav2 {
